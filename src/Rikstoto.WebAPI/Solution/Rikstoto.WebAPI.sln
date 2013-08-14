@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikstoto.WebAPI", "Rikstoto.WebAPI\Rikstoto.WebAPI.csproj", "{7F528774-6679-420B-B937-BDED4AE7D190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikstoto.WebAPI.UnitTests", "Riksototo.WebAPI.UnitTests\Rikstoto.WebAPI.UnitTests.csproj", "{05073DA3-1E61-480E-9DC5-0C09C04C163E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA9A22C0-22AF-499A-8DC9-A76D94A7F917}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F528774-6679-420B-B937-BDED4AE7D190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F528774-6679-420B-B937-BDED4AE7D190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F528774-6679-420B-B937-BDED4AE7D190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F528774-6679-420B-B937-BDED4AE7D190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05073DA3-1E61-480E-9DC5-0C09C04C163E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05073DA3-1E61-480E-9DC5-0C09C04C163E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05073DA3-1E61-480E-9DC5-0C09C04C163E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05073DA3-1E61-480E-9DC5-0C09C04C163E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
