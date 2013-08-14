@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalApi.Contracts", "ExternalApi.Contracts\ExternalApi.Contracts.csproj", "{8403C385-5D3B-4727-A814-073F6FEF1CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalApi.API.Rest", "ExternalApi.API.Rest\ExternalApi.API.Rest.csproj", "{276494B7-F211-4810-8489-2E4D2E007EC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8403C385-5D3B-4727-A814-073F6FEF1CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8403C385-5D3B-4727-A814-073F6FEF1CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8403C385-5D3B-4727-A814-073F6FEF1CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8403C385-5D3B-4727-A814-073F6FEF1CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276494B7-F211-4810-8489-2E4D2E007EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276494B7-F211-4810-8489-2E4D2E007EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276494B7-F211-4810-8489-2E4D2E007EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276494B7-F211-4810-8489-2E4D2E007EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
