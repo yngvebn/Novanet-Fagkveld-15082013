@@ -13,9 +13,10 @@ namespace ExternalApi.API.Rest.App_Start
             IWindsorContainer container = new WindsorContainer();
             container.Kernel.Resolver.AddSubResolver(new ListResolver(container.Kernel));
             container.Kernel.Resolver.AddSubResolver(new CollectionResolver(container.Kernel));
-
+            
             config.DependencyResolver = new WindsorDependencyResolver(container);
             container.Install(FromAssembly.This());
+            CastleBootstrapperForRestApi.Setup(container);
         }
     }
 }

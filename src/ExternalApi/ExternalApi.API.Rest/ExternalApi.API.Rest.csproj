@@ -180,15 +180,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\IManageDataProviders.cs" />
+    <Compile Include="Infrastructure\IManageDataProvidersFor.cs" />
+    <Compile Include="Infrastructure\ManageDataProviders.cs" />
+    <Compile Include="Infrastructure\ManageDataProvidersFor.cs" />
     <Compile Include="Infrastructure\Mapping\IMapper.cs" />
     <Compile Include="Infrastructure\Mapping\IMappingConfiguration.cs" />
     <Compile Include="Infrastructure\Mapping\OurMapper.cs" />
     <Compile Include="Installers\ControllersInstaller.cs" />
     <Compile Include="Installers\Mappings.cs" />
+    <Compile Include="Installers\ProviderManager.cs" />
+    <Compile Include="Installers\Providers.cs" />
     <Compile Include="Mappings\CustomerWithOrders.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Providers\DummyProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -200,7 +205,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Providers\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

@@ -31,7 +31,7 @@ namespace ProductService
 
         public Product Find(int productSku)
         {
-            return All().SingleOrDefault(product => productSku == productSku);
+            return All().FirstOrDefault(product => product.ProductSku == productSku);
         }
     }
 }

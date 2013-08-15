@@ -8,6 +8,7 @@ namespace ExternalApi.API.Rest.Mappings
         public void Configure()
         {
             Mapper.CreateMap<Contracts.Orders.CustomerWithOrders, Models.CustomerWithOrders>();
+            Mapper.CreateMap<Contracts.Orders.Order, Models.Order>();
         }
     }
 }
